@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">umc_week02</string>
+    <string name="home">Home</string>
+    <string name="write">Write</string>
+    <string name="user">User</string>
+</resources>
