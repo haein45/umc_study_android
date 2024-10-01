@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/album_cover"
-        android:layout_width="210dp"
+        android:layout_width="211dp"
         android:layout_height="210dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="176dp"
