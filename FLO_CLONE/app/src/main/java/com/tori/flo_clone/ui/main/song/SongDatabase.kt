@@ -4,6 +4,11 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.tori.flo_clone.data.entities.Album
+import com.tori.flo_clone.data.entities.Like
+import com.tori.flo_clone.data.entities.Song
+import com.tori.flo_clone.data.entities.User
+import com.tori.flo_clone.ui.main.album.AlbumDao
 
 @Database(entities = [Song::class, Album::class, Like::class, User::class], version = 1)
 abstract class SongDatabase : RoomDatabase() {

@@ -10,6 +10,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import com.tori.flo_clone.databinding.ActivityLoginBinding
+import com.tori.flo_clone.ui.main.signup.SignUpActivity
 
 
 class LoginActivity : AppCompatActivity() {

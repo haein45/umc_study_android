@@ -8,11 +8,15 @@ import android.util.Log
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import com.google.gson.Gson
+import com.tori.flo_clone.data.entities.Album
+import com.tori.flo_clone.data.entities.Song
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import com.tori.flo_clone.databinding.ActivityMainBinding
+import com.tori.flo_clone.ui.main.home.HomeFragment
+import com.tori.flo_clone.ui.main.signup.SongActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -55,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             editor.putInt("songId", song.id)
             editor.apply()
 
-            val intent = Intent(this,SongActivity::class.java)
+            val intent = Intent(this, SongActivity::class.java)
 
 //            getResultText.launch(intent)
             startActivity(intent)

@@ -1,9 +1,9 @@
 package com.tori.flo_clone
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.tori.flo_clone.data.entities.Album
 import com.tori.flo_clone.databinding.ItemAlbumBinding
 
 class AlbumRVAdapter(private val albumList: ArrayList<Album>):

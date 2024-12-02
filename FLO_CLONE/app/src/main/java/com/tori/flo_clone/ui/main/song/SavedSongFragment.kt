@@ -6,11 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.tori.flo_clone.data.entities.Song
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import com.tori.flo_clone.databinding.FragmentLockerSavedsongBinding
+import com.tori.flo_clone.ui.main.song.SongDatabase
 
 class SavedSongFragment: Fragment() {
     lateinit var binding: FragmentLockerSavedsongBinding
